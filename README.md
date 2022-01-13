@@ -16,14 +16,14 @@ HighstatLibV6.R
 MicropredatorsLimitSignalElaboration_code.R
 -   Script for analyses
 -   Variables
--   date = date (day-month-year) of observation
--   time = duration (seconds) from beginning of 1st call to beginning of 50th sequential call
--   call_rate = # the total number of calls (50), minus one, divided by the time from the beginning of the first call to the beginning of the last call 
--   chucks = total # of chucks over the 50 sequential calls
--   midges = total # of frog-biting midges observed landing on focal frog over 50 sequential calls
--   swatcount = total # of swats observed over the 50 sequential call duration
--   males_lessthan1m = # of neighbor male competitors present within 1 meter of focal frog
--   males_morethan1m = level of perceived abundance of calling conspecifics beyond 1 meter. (0 = only focal frog heard calling, 1 = individual calling frogs could be counted, 2 = calls of frogs overlapping but individuals distinguishable, 3 = full chorus, cannot distinguish individuals).
+  -   date = date (day-month-year) of observation
+  -   time = duration (seconds) from beginning of 1st call to beginning of 50th sequential call
+  -   call_rate = # the total number of calls (50), minus one, divided by the time from the beginning of the first call to the beginning of the last call 
+  -   chucks = total # of chucks over the 50 sequential calls
+  -   midges = total # of frog-biting midges observed landing on focal frog over 50 sequential calls  
+  -   swatcount = total # of swats observed over the 50 sequential call duration
+  -   males_lessthan1m = # of neighbor male competitors present within 1 meter of focal frog
+  -   males_morethan1m = level of perceived abundance of calling conspecifics beyond 1 meter. (0 = only focal frog heard calling, 1 = individual calling frogs could be counted, 2 = calls of frogs overlapping but individuals distinguishable, 3 = full chorus, cannot distinguish individuals).
 -   Modified 2021-11-24 (Added author names)
 
 MicropredatorsLimitSignalElaboration_data.csv
@@ -32,7 +32,6 @@ MicropredatorsLimitSignalElaboration_data.csv
 
 Movies (https://doi.org/10.5281/zenodo.5759167)
 -   1A10M3.mp4, 1A10M4.mp4, 3A12M1.mp4, 3A12M3.mp4, 7A12M3.mp4, 8A12M2.mp4, 11J10M5.mp4, 12J10M1.mp4, 12J10M2.mp4, 29J12M3.mp4
-
 -   Recordings from 2010 and 2012 of calling male túngara frogs (*Engystomops pustulosus*). Most movies feature males being attacked by frog-biting midges (Diptera: Corethrellidae) and their anti-midge defensive swats. The size of the inflated vocal sac relative to the length of the frog's arm prevents the male from swatting while calling.
 -   File names include the following information, in order: Day of month, Month ("J" = July, "A" = August), Year ("10" = 2010, "12" = 2012), Sex of frog ("M" = Male), Identifier for individual male on that date (i.e., "1", "2", "3", ...)
 -   Created on date denoted in file name
