@@ -8,12 +8,10 @@ Location of data collection: Gamboa, Panamá
 Keywords: _communication, foraging, male-male competition, predator-prey, structural equation model_
 
 ## Files:
-HighstatLibV6.R
-*   Code from Zuur AF, Ieno EN, Walkner N, et al (2009) Mixed effects models and extensions in ecology with R. Springer New York, New York, NY
-    -   Available at https://highstat.com/Books/BGS/GAMM/RCodeP2/HighstatLibV6.R
-    -   Necessary to run part of analysis in "MicropredatorsLimitSignalElaboration_code.R"
-    -   Downloaded 2019-07-20
 
+MicropredatorsLimitSignalElaboration_OnlineSupplement.pdf
+-   Supplementary figures, tables, methods, description of videos
+    
 MicropredatorsLimitSignalElaboration_code.R
 -   Script for analyses
 *   Variables
@@ -25,6 +23,11 @@ MicropredatorsLimitSignalElaboration_code.R
     -   swatcount = total # of swats observed over the 50 sequential call duration
     -   males_lessthan1m = # of neighbor male competitors present within 1 meter of focal frog
     -   males_morethan1m = level of perceived abundance of calling conspecifics beyond 1 meter. (0 = only focal frog heard calling, 1 = individual calling frogs could be counted, 2 = calls of frogs overlapping but individuals distinguishable, 3 = full chorus, cannot distinguish individuals).
+* Requires HighstatLibV6.R
+    -   Code from Zuur AF, Ieno EN, Walkner N, et al (2009) Mixed effects models and extensions in ecology with R. Springer New York, New York, NY
+        -   Available at https://highstat.com/Books/BGS/GAMM/RCodeP2/HighstatLibV6.R
+        -   Necessary to run part of analysis in "MicropredatorsLimitSignalElaboration_code.R"
+        -   Downloaded 2019-07-20
 -   Modified 2021-11-24 (Added author names)
 
 MicropredatorsLimitSignalElaboration_data.csv
